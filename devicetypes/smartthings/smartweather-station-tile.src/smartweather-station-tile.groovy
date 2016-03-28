@@ -49,7 +49,7 @@ metadata {
 		valueTile("temperature", "device.temperature") {
 			state "default", label:'${currentValue}°',
 				backgroundColors:[
-					[value: 31, color: "#153591"],
+					[value: 31, color: "#d04e00"],
 					[value: 44, color: "#d04e00"],
 					[value: 59, color: "#90d2a7"],
 					[value: 74, color: "#44b621"],
