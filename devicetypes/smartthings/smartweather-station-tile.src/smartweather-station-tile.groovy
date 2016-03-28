@@ -109,7 +109,7 @@ metadata {
 			state "nt_partlycloudy", icon:"st.custom.wu1.nt_partlycloudy", label: ""
 		}
 		valueTile("feelsLike", "device.feelsLike", decoration: "flat") {
-			state "default", label:'feels like ${currentValue}°'
+			state "default", label:'feels like ${currentValue}° yo'
 		}
 
 		valueTile("wind", "device.wind", decoration: "flat") {
